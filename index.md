@@ -16,6 +16,7 @@
 
 <script src="https://iselang.github.io/num.js"> </script>
 
+<script type="module" src="https://iselang.github.io/num.js"> </script>
 <script type="module">
 app('Myurl');
 fav(2);
@@ -28,11 +29,8 @@ pick('p').set = cleanData;
 
 await bit.init();
 
-
 let dbData = await net.get('https://myurl.github.io/db');
-
 const listItem = pick("p");
-
 
 let urlMap = Object.fromEntries(
 dbData
@@ -51,6 +49,7 @@ let link = make("tap");
 let fgu = make("say");
 fgu.set=value;
 link.append(fgu);
+link.at = "vol"
 link.addEventListener("mousedown", (event) => {
 event.preventDefault(); 
 path.go(value); 
@@ -59,6 +58,9 @@ path.go(value);
 listItem.append(link);
 });
 
+AutoUI();
+
 }, 50);
 console.clear();
+
 </script>
