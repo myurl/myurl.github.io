@@ -47,7 +47,7 @@ return [key.trim(), value.trim()];
 Object.entries(urlMap).forEach(([key, value]) => {
 let link = make("tap");
 let fgu = make("say");
-fgu.set=value;
+fgu.set=key;
 link.append(fgu);
 link.at = "bol2"
 link.addEventListener("mousedown", (event) => {
