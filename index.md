@@ -9,13 +9,13 @@
 
 <script src="https://iselang.github.io/num.js"> </script>
 
-<script>
+<script type="module">
 app('Myurl');
 fav(2);
 
-setTimeout(() => {
+setTimeout(async () => {
 await bit.init();
 let userData = await bit.get("path");
 pick('p').set = userData;
-  }, 2000);
+}, 2000);
 </script>
