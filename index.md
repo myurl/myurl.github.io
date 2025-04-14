@@ -30,7 +30,7 @@ pick('p').set = cleanData;
 await bit.init();
 
 let dbData = await net.get('https://myurl.github.io/db');
-const listItem = pick("p");
+const listItem = pick("urls");
 
 let urlMap = Object.fromEntries(
 dbData
