@@ -2,12 +2,14 @@
 <link rel="preload" as="style" href="https://actwu.github.io/md.css" />
 <link rel="stylesheet" href="https://actwu.github.io/md.css" />
 
-<say>You typed.</say>
+
 <cont>
+<say>You typed.</say>
 <p></p>
 </cont>
-<say>Url's.</say>
+
 <cont>
+<say>Url's.</say>
 <urls></urls>
 </cont>
 <link rel='preload' as="script" href='https://iselang.github.io/num.js'>
@@ -31,7 +33,7 @@ let dbData = await net.get('https://myurl.github.io/db');
 
 const listItem = pick("p");
 
-  
+
 let urlMap = Object.fromEntries(
 dbData
 .trim()
@@ -56,7 +58,7 @@ path.go(value);
 
 listItem.append(link);
 });
-  
+
 }, 50);
-  console.clear();
+console.clear();
 </script>
