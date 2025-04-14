@@ -16,6 +16,8 @@ fav(2);
 setTimeout(async () => {
 await bit.init();
 let userData = await bit.get("path");
-pick('p').set = userData;
+let cleanData = decodeURIComponent(userData).replace(/^\/+/, '');
+pick('p').set = cleanData;
+
 }, 50);
 </script>
