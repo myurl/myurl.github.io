@@ -17,5 +17,5 @@ setTimeout(async () => {
 await bit.init();
 let userData = await bit.get("path");
 pick('p').set = userData;
-}, 2000);
+}, 50);
 </script>
