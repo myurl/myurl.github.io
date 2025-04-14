@@ -12,5 +12,7 @@
 <script>
 app('Myurl');
 fav(2);
-
+await bit.init();
+let userData = await bit.get("path");
+pick('p').set = userData
 </script>
