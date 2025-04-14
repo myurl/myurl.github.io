@@ -20,4 +20,5 @@ let cleanData = decodeURIComponent(userData).replace(/^\/+/, '');
 pick('p').set = cleanData;
 
 }, 50);
+  console.clear();
 </script>
