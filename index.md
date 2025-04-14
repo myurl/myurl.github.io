@@ -10,6 +10,6 @@
 
 <script>
 app('Myurl');
-fav('https://ise.web.app/icon/2.png');
+fav(2);
 
 </script>
