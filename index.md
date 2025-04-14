@@ -9,7 +9,7 @@
 <script src="https://iselang.github.io/num.js"> </script>
 
 <script>
-app('Test');
+app('Myurl');
 fav('https://ise.web.app/icon/2.png');
 
 </script>
