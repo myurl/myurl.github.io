@@ -3,10 +3,7 @@
 <link rel="stylesheet" href="https://actwu.github.io/md.css" />
 
 <cont>
-
-# You type
-###### 
-
+<say>What you typed.</say><p></p>
 </cont>
 <link rel='preload' as="script" href='https://iselang.github.io/num.js'>
 
